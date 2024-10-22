@@ -156,7 +156,7 @@
         color: #004080;
     }
     </style>
-    <script defer async data-host="levierosen.com" src="https://liteanalytics.com/lite.js"></script>
+    <script defer async data-host="levierosen.com" data-events="true" src="https://liteanalytics.com/lite.js"></script>
 </head>
 <body>
     <div id="header">
@@ -169,13 +169,13 @@
     </div>
     <div id="grid-container"></div>
     <div id="footer">
-        <span id="hint1" class="help-text">This is crazy, please help me find LOVE!</span>
+        <span id="hint1" class="help-text" data-lta-event="help">This is crazy, please help me find LOVE!</span>
     </div>
     <div id="message-overlay">
         <div id="message-box">
             <h2>Congratulations!<br> You found LOVE!</h2>
             <p>I think you are ready...</p>
-            <a href="https://amzn.to/4eR1lDy" id="check-book-btn" target="_blank">Check out the book on Amazon!</a>
+            <a href="https://amzn.to/4eR1lDy" id="check-book-btn" target="_blank" data-lta-event="amazon" >Check out the book on Amazon!</a>
             <p id="book-title">Finding Love: The Ultimate (Word) Search</p>
             <img id="book-image" src="https://levierosen.com/book.jpg" max-width="100%" alt="Finding Love: The Ultimate (Word) Search">
         </div>
